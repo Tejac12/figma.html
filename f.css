@@ -1,0 +1,441 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-column a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Banner {
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    background: #C1DCDC;
+    height: 430px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 24px;
+    top: 123px;
+    left: 96px;
+    border-radius: 24px;
+}
+
+.left h1 {
+    font-size: 50px;
+    margin-right: 10px;
+    line-height: 40px;
+
+}
+
+.left span {
+    display: flex;
+    gap: 20px;
+}
+
+.search>input {
+    border: none;
+    height: 10px;
+    border-radius: 12px;
+
+}
+
+.search>input:focus {
+    outline: none;
+
+    border-bottom: 2px solid rgb(209, 182, 182);
+
+}
+
+.search img {
+    background: #C1DCDC;
+    width: 15px;
+
+}
+
+.middle img {
+    width: 130px;
+    position: absolute;
+    top: 359px;
+    left: 490px;
+
+}
+
+.rect img {
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.rect2 img {
+    position: absolute;
+    top: 200px;
+    left: 730px;
+}
+
+.rect3 img {
+    width: 100px;
+    top: 100px;
+    left: 1010px;
+    position: absolute;
+
+}
+
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+
+
+}
+
+.box1 {
+    align-items: center;
+    padding: 15px;
+    margin-left: 50px;
+
+}
+
+.box1 h3 {
+    font-size: 20px;
+}
+
+.box1 p {
+    word-spacing: 5px;
+    color: grey;
+}
+
+.button1 {
+    font-family: sans-serif;
+    width: 400px;
+
+
+}
+
+.card {
+
+    background-color: white;
+    border: 40%;
+    row-gap: 40px;
+    border-radius: 12px;
+}
+
+.card img {
+    background-color: whitesmoke;
+
+}
+
+.card span {
+    color: grey;
+}
+
+.card2 {
+    border-radius: 15px;
+}
+
+.card2 img {
+    background-color: darkgray;
+
+}
+
+.card2 span {
+    color: grey;
+}
+
+.card3 {
+    border-radius: 15px grey;
+}
+
+.card3 img {
+    background-color: rgb(235, 211, 168);
+}
+
+.card3 span {
+    color: grey;
+}
+
+.delivery {
+    justify-content: space-between;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    color: grey;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    width: 100%%;
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+
+}
+
+.icon p {
+    color: grey;
+}
+
+
+.icon1 {
+    text-align: center;
+    width: 20%;
+    padding-bottom: 30px;
+}
+
+.icon1 p {
+    color: grey;
+}
+
+.icon2 {
+    text-align: center;
+    padding-bottom: 30px;
+    width: 20%;
+}
+
+.icon2 p {
+    color: grey;
+}
+
+.main {
+    text-align: center;
+}
+
+.main p {
+    color: grey;
+}
+
+.category {
+    display: flex;
+    height: 600px;
+
+
+}
+
+
+
+.plant {
+
+    top: -12px;
+    right: 30px;
+    position: relative;
+}
+
+.plant h4 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+
+.plant img {
+    top: -48px;
+    left: 96px;
+    position: relative;
+
+}
+
+.plant1 {
+    position: relative;
+    top: 48px;
+    left: 160px;
+    gap: 30px;
+
+}
+
+.plant1 p {
+    color: grey;
+    width: 80%;
+    text-align: center;
+}
+
+.plant1 h4 {
+    text-align: center;
+    margin-right: 40px;
+}
+
+
+.plant2 {
+    position: relative;
+    top: -48px;
+    left: 70px;
+}
+
+.plant2 h4 {
+    text-align: center;
+}
+
+.button {
+    padding: 5px;
+    color: black;
+    position: relative;
+    top: 530px;
+    right: 120px;
+}
+
+.button,
+button {
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green {
+    padding: 20px;
+    position: relative;
+    left: 25px;
+}
+
+.green1 {
+    position: relative;
+    left: 20px;
+    background-color: #C1DCDC;
+    width: 700px;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.green1 p {
+    color: #1e1e1e;
+    padding: 50px;
+}
+
+.green1 img {
+    top: -70px;
+    position: relative;
+}
+
+.green1 .name {
+    position: relative;
+    top: -243px;
+    right: -150px;
+}
+
+.green1 .name p {
+    position: relative;
+    top: -65px;
+    left: -52px;
+    color: grey;
+    font-size: 15px;
+}
+
+.green1 span {
+    position: relative;
+    top: -200px;
+    right: -430px;
+}
+
+.green2 {
+    background-color: #C1DCDC;
+    width: 600px;
+    height: 300px;
+    top: -570px;
+    right: -890px;
+    position: relative;
+    border-radius: 12px;
+
+}
+
+
+
+.name1 {
+    position: relative;
+    top: -230px;
+    right: -150px;
+}
+
+.name1 p {
+    position: relative;
+    top: -70px;
+    right: 50px;
+    color: grey;
+    font-size: 15px;
+}
+
+
+footer {
+    padding: 50px;
+    background-color: #C1DCDC;
+    width: 1440px;
+    height: 280px;
+
+}
+
+.foot1 {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+
+.foot1 .information {
+    position: relative;
+    top: -180px;
+    right: -130px;
+}
+
+.information a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foot1 .company {
+    position: relative;
+    top: -180px;
+    right: -180px;
+}
+
+.company a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foot1 .Cont {
+    position: relative;
+    top: -180px;
+    right: -200px;
+}
+
+.Cont a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foot span {
+    color: grey;
+    position: relative;
+    right: 740px;
+}
